@@ -22,6 +22,7 @@ struct ChatResponseDTO: Decodable {
 }
 
 @Observable
+@MainActor
 final class SecretaryService {
     var isProcessing = false
 
