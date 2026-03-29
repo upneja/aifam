@@ -1,9 +1,71 @@
+# macOS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
 *.xcuserdata
+*.xcworkspace
+DerivedData/
 .build/
 .swiftpm/
-.superpowers/
-backend/.venv/
-backend/__pycache__/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# SPM
+.package.resolved
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
 .env
-*.xcworkspace
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Superpowers internal
+.superpowers/

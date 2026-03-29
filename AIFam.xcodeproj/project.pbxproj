@@ -53,6 +53,7 @@
 		9070F7B00C9E4CE1E2CF6E2C /* EntityExtractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65703ED15CE6737ABB350883 /* EntityExtractionService.swift */; };
 		912FF512479172B40A63FC5C /* TonePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7AF4698073377231DD1D0A /* TonePreset.swift */; };
 		9D4DAFBD96D7BD52E8A9F639 /* Briefing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAC04C51B46BEE45002E54 /* Briefing.swift */; };
+		A1A4DA89DD3C1BF182666EC6 /* BriefingGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DEA2F98EAA41B231200C /* BriefingGenerator.swift */; };
 		A4999DFC272C384669EF1D8D /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87ABCB8FF0E109F58330BF /* PermissionManager.swift */; };
 		A50B114CFB53DB643EBEEE18 /* AIFamWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EEF20D8468E089F92799E0E8 /* AIFamWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7E1E94F65D216F2C169B10B /* BinderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61D694F8BD17555AAFBE619 /* BinderDetailView.swift */; };
@@ -133,6 +134,7 @@
 		8FE3B1E3636EBB7204CA4F71 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		900BB163AE717B12A9EE0C4D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		90160F57D7AB425C50BBED95 /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
+		90D1DEA2F98EAA41B231200C /* BriefingGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingGenerator.swift; sourceTree = "<group>"; };
 		93979208165CD645318249DC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		96D868C719100DFCA851B08D /* AIFam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIFam.entitlements; sourceTree = "<group>"; };
 		9782689BFAA4796A74C38F0A /* HealthIngestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthIngestionService.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				1C28B81D7D211E07D77E3A6B /* APIClient.swift */,
+				90D1DEA2F98EAA41B231200C /* BriefingGenerator.swift */,
 				04E7F62D88119E9A400F0E27 /* CalendarIngestionService.swift */,
 				412F1956EAAB082B4AF1312C /* ContactsIngestionService.swift */,
 				484465388E153EA0FE6742DF /* DataSyncCoordinator.swift */,
@@ -473,6 +476,7 @@
 				02519361F8799E6D4B7F04EF /* BinderItem.swift in Sources */,
 				9D4DAFBD96D7BD52E8A9F639 /* Briefing.swift in Sources */,
 				B090966BDD009E91489503DD /* BriefingCardView.swift in Sources */,
+				A1A4DA89DD3C1BF182666EC6 /* BriefingGenerator.swift in Sources */,
 				471DB6FC0FDE8AE92227F062 /* BuildingPhaseView.swift in Sources */,
 				5E4009FC00D8913C4FD0EEEB /* CalendarIngestionService.swift in Sources */,
 				2467907F6F0CA8F789454A78 /* ChatBubbleView.swift in Sources */,
