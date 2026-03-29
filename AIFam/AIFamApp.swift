@@ -1,9 +1,11 @@
 import SwiftUI
 import SwiftData
+import WidgetKit
 
 @main
 struct AIFamApp: App {
     @State private var syncCoordinator = DataSyncCoordinator()
+    @State private var notificationService = NotificationService()
     @State private var showOnboarding = false
 
     var body: some Scene {
@@ -24,6 +26,8 @@ struct AIFamApp: App {
             .onAppear {
                 checkOnboardingState()
                 DataSyncCoordinator.registerBackgroundTasks()
+                notificationService.registerCategories()
+                refreshWidgetAndNotifications()
             }
         }
         .modelContainer(for: [BinderItem.self, ChatMessage.self, UserProfile.self])
@@ -42,6 +46,15 @@ struct AIFamApp: App {
         UserDefaults.standard.set(true, forKey: "hasCompletedOnboarding")
         withAnimation(.easeInOut(duration: 0.5)) {
             showOnboarding = false
+        }
+        refreshWidgetAndNotifications()
+    }
+
+    private func refreshWidgetAndNotifications() {
+        // If a briefing exists in the shared container, update widget and schedule notifications
+        if let briefing = SharedDataManager.shared.loadBriefing() {
+            WidgetCenter.shared.reloadAllTimelines()
+            notificationService.scheduleFromBriefing(briefing)
         }
     }
 }
