@@ -22,7 +22,7 @@ actor APIClient {
     #if DEBUG
     private let baseURL = "http://localhost:8000"
     #else
-    private let baseURL = "https://aifam-api.railway.app"
+    private let baseURL = "https://tabby-api.railway.app"
     #endif
 
     private let encoder = JSONEncoder()

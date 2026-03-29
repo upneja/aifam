@@ -1,6 +1,6 @@
-name: AIFam
+name: Tabby
 options:
-  bundleIdPrefix: com.aifam
+  bundleIdPrefix: com.tabbyapp
   deploymentTarget:
     iOS: "26.0"
   xcodeVersion: "16.3"
@@ -25,17 +25,17 @@ targets:
       path: AIFam/Info.plist
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.aifam.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.tabbyapp.ios
         SWIFT_VERSION: "6.0"
         INFOPLIST_FILE: AIFam/Info.plist
-        DEVELOPMENT_TEAM: ""
+        DEVELOPMENT_TEAM: "QVRF3K3299"
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
     entitlements:
       path: AIFam/AIFam.entitlements
       properties:
         com.apple.security.application-groups:
-          - group.com.aifam.shared
+          - group.com.tabbyapp.shared
         com.apple.developer.healthkit: true
         com.apple.developer.healthkit.access:
           - health-records
@@ -64,16 +64,16 @@ targets:
       path: AIFamWidget/Info.plist
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.aifam.app.widget
+        PRODUCT_BUNDLE_IDENTIFIER: com.tabbyapp.ios.widget
         SWIFT_VERSION: "6.0"
         INFOPLIST_FILE: AIFamWidget/Info.plist
-        DEVELOPMENT_TEAM: ""
+        DEVELOPMENT_TEAM: "QVRF3K3299"
         CODE_SIGN_STYLE: Automatic
     entitlements:
       path: AIFamWidget/AIFamWidget.entitlements
       properties:
         com.apple.security.application-groups:
-          - group.com.aifam.shared
+          - group.com.tabbyapp.shared
     dependencies:
       - sdk: WidgetKit.framework
       - sdk: SwiftUI.framework

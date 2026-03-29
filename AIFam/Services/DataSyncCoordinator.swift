@@ -20,8 +20,8 @@ enum SyncStatus {
 @Observable
 @MainActor
 final class DataSyncCoordinator {
-    nonisolated static let appRefreshIdentifier = "com.aifam.sync.refresh"
-    nonisolated static let processingIdentifier = "com.aifam.sync.processing"
+    nonisolated static let appRefreshIdentifier = "com.tabbyapp.sync.refresh"
+    nonisolated static let processingIdentifier = "com.tabbyapp.sync.processing"
 
     let permissionManager: PermissionManager
     let calendarService: CalendarIngestionService

@@ -26,6 +26,6 @@ struct SharedBriefingItem: Codable, Identifiable, Sendable {
 }
 
 enum SharedDataKeys {
-    static let appGroupID = "group.com.aifam.shared"
+    static let appGroupID = "group.com.tabbyapp.shared"
     static let briefingKey = "latestBriefing"
 }

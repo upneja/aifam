@@ -39,7 +39,7 @@ struct DetectedPlace: Codable, Sendable {
 @Observable
 final class LocationService: NSObject, CLLocationManagerDelegate {
     private let locationManager = CLLocationManager()
-    private let visitStorageKey = "com.aifam.visitHistory"
+    private let visitStorageKey = "com.tabbyapp.visitHistory"
 
     var currentPlace: SignificantPlace?
     var detectedPlaces: [DetectedPlace] = []
