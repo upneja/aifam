@@ -31,5 +31,15 @@ targets:
         DEVELOPMENT_TEAM: ""
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+    entitlements:
+      path: AIFam/AIFam.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access:
+          - health-records
     dependencies:
       - sdk: SwiftData.framework
+      - sdk: EventKit.framework
+      - sdk: Contacts.framework
+      - sdk: CoreLocation.framework
+      - sdk: HealthKit.framework

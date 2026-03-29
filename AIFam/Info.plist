@@ -18,17 +18,5 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSCalendarsFullAccessUsageDescription</key>
-	<string>See your schedule and catch conflicts before they happen.</string>
-	<key>NSRemindersFullAccessUsageDescription</key>
-	<string>Track what's on your plate and surface overdue items.</string>
-	<key>NSContactsUsageDescription</key>
-	<string>Know your people and never miss a birthday.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Learn your routine to give you context-aware briefings.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Detect when you're home, at work, or on the go for smarter briefings.</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Factor in your sleep and wellness for daily recommendations.</string>
 </dict>
 </plist>
