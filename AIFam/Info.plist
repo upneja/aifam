@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>See your schedule and catch conflicts before they happen.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Track what's on your plate and surface overdue items.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Know your people and never miss a birthday.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Learn your routine to give you context-aware briefings.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Detect when you're home, at work, or on the go for smarter briefings.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Factor in your sleep and wellness for daily recommendations.</string>
+</dict>
+</plist>
