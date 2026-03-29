@@ -48,6 +48,7 @@ struct HeartRateSummary: Sendable {
 }
 
 @Observable
+@MainActor
 final class HealthIngestionService {
     private let healthStore = HKHealthStore()
     private let stepGoal = 10_000

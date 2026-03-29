@@ -14,6 +14,7 @@ struct ReminderData: Sendable {
 }
 
 @Observable
+@MainActor
 final class RemindersIngestionService {
     private let eventStore = EKEventStore()
 

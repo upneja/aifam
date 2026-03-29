@@ -43,3 +43,4 @@ targets:
       - sdk: Contacts.framework
       - sdk: CoreLocation.framework
       - sdk: HealthKit.framework
+      - sdk: BackgroundTasks.framework

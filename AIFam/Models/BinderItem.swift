@@ -12,6 +12,7 @@ final class BinderItem {
     var urgencyDays: Int?
     var relatedNotes: [String]
     var source: String
+    var sourceID: String?
     var createdAt: Date
     var updatedAt: Date
 
@@ -28,7 +29,8 @@ final class BinderItem {
         isCompleted: Bool = false,
         urgencyDays: Int? = nil,
         relatedNotes: [String] = [],
-        source: String = "chat"
+        source: String = "chat",
+        sourceID: String? = nil
     ) {
         self.id = UUID()
         self.title = title
@@ -39,6 +41,7 @@ final class BinderItem {
         self.urgencyDays = urgencyDays
         self.relatedNotes = relatedNotes
         self.source = source
+        self.sourceID = sourceID
         self.createdAt = Date()
         self.updatedAt = Date()
     }
