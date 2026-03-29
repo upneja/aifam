@@ -34,6 +34,8 @@ targets:
     entitlements:
       path: AIFam/AIFam.entitlements
       properties:
+        com.apple.security.application-groups:
+          - group.com.aifam.shared
         com.apple.developer.healthkit: true
         com.apple.developer.healthkit.access:
           - health-records
@@ -44,3 +46,34 @@ targets:
       - sdk: CoreLocation.framework
       - sdk: HealthKit.framework
       - sdk: BackgroundTasks.framework
+      - sdk: FoundationModels.framework
+        weak: true
+      - sdk: NaturalLanguage.framework
+      - sdk: UserNotifications.framework
+      - target: AIFamWidgetExtension
+
+  AIFamWidgetExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: AIFamWidget
+        excludes:
+          - "Info.plist"
+    info:
+      path: AIFamWidget/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aifam.app.widget
+        SWIFT_VERSION: "6.0"
+        INFOPLIST_FILE: AIFamWidget/Info.plist
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+    entitlements:
+      path: AIFamWidget/AIFamWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.aifam.shared
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
