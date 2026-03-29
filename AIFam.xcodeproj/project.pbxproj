@@ -40,6 +40,7 @@
 		5E437A7B21B372D58155DDCE /* SecretaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF98BC47DD77BC65F2AB467 /* SecretaryService.swift */; };
 		5F8213C484648EDF007EB4BC /* AIFamWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01646BA254442F2A728E66CC /* AIFamWidgetBundle.swift */; };
 		6343FB51EBB3D176397FEC10 /* Insight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3C19E20B3512CA30AC5A2 /* Insight.swift */; };
+		66C7E23F6AF9A7261D6D084A /* InsightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFF1D147BAE7B2ECACE462 /* InsightEngine.swift */; };
 		6858BDA6D3F12ED31875A5C8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28B81D7D211E07D77E3A6B /* APIClient.swift */; };
 		6E1555A439F028256007C37E /* MorningBriefingIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE631FF211CCB99D3CC33F /* MorningBriefingIntent.swift */; };
 		74456DDC302FEF61E0A6C9B8 /* SharedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA5458A6EB7BCADE0163EB /* SharedDataManager.swift */; };
@@ -51,6 +52,7 @@
 		88DB3395193A1B8B1680B348 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7400F15CCE226F76F9B065 /* UserNotifications.framework */; };
 		9070F7B00C9E4CE1E2CF6E2C /* EntityExtractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65703ED15CE6737ABB350883 /* EntityExtractionService.swift */; };
 		912FF512479172B40A63FC5C /* TonePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7AF4698073377231DD1D0A /* TonePreset.swift */; };
+		9D4DAFBD96D7BD52E8A9F639 /* Briefing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAC04C51B46BEE45002E54 /* Briefing.swift */; };
 		A4999DFC272C384669EF1D8D /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87ABCB8FF0E109F58330BF /* PermissionManager.swift */; };
 		A50B114CFB53DB643EBEEE18 /* AIFamWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EEF20D8468E089F92799E0E8 /* AIFamWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7E1E94F65D216F2C169B10B /* BinderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61D694F8BD17555AAFBE619 /* BinderDetailView.swift */; };
@@ -101,6 +103,7 @@
 		06F31843366870D054AD64A7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		09A9287AAD502E14DCD344E7 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
 		0A528A8B9CCC29BCD1B1AD87 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0BBFF1D147BAE7B2ECACE462 /* InsightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightEngine.swift; sourceTree = "<group>"; };
 		1C28B81D7D211E07D77E3A6B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		1C9F3F4FED24E161A68D634E /* BriefingWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingWidgetView.swift; sourceTree = "<group>"; };
 		246B8EC767B463A05DDF979E /* NLEntityExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLEntityExtractor.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 		32FCBEE6106BA22F511980E9 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		3A86B3253B2B70695E3A0085 /* AIFamShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFamShortcuts.swift; sourceTree = "<group>"; };
 		3B6B18319A3DA5703F4FB7C4 /* BuildingPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingPhaseView.swift; sourceTree = "<group>"; };
+		3DBAC04C51B46BEE45002E54 /* Briefing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Briefing.swift; sourceTree = "<group>"; };
 		3F3D6A116DD34CBA193B0C52 /* SharedBriefing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedBriefing.swift; sourceTree = "<group>"; };
 		411E548DB202CF490D41BB5E /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		412F1956EAAB082B4AF1312C /* ContactsIngestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsIngestionService.swift; sourceTree = "<group>"; };
@@ -228,6 +232,7 @@
 			children = (
 				C6F08FBBFA366E5D1E8754D7 /* BinderCategory.swift */,
 				2B242581B90BD473AA57E34D /* BinderItem.swift */,
+				3DBAC04C51B46BEE45002E54 /* Briefing.swift */,
 				586546A5CC9DA6B00F2A1DE3 /* ChatMessage.swift */,
 				CD32CAD3DC5D918BDCFCCD47 /* ExtractedEntities.swift */,
 				C5D3C19E20B3512CA30AC5A2 /* Insight.swift */,
@@ -285,6 +290,7 @@
 				484465388E153EA0FE6742DF /* DataSyncCoordinator.swift */,
 				65703ED15CE6737ABB350883 /* EntityExtractionService.swift */,
 				9782689BFAA4796A74C38F0A /* HealthIngestionService.swift */,
+				0BBFF1D147BAE7B2ECACE462 /* InsightEngine.swift */,
 				728086DA0D96C64DA54D4FF6 /* LocationService.swift */,
 				246B8EC767B463A05DDF979E /* NLEntityExtractor.swift */,
 				06F31843366870D054AD64A7 /* NotificationService.swift */,
@@ -465,6 +471,7 @@
 				A7E1E94F65D216F2C169B10B /* BinderDetailView.swift in Sources */,
 				42795AD902B19FF96BD0935E /* BinderHomeView.swift in Sources */,
 				02519361F8799E6D4B7F04EF /* BinderItem.swift in Sources */,
+				9D4DAFBD96D7BD52E8A9F639 /* Briefing.swift in Sources */,
 				B090966BDD009E91489503DD /* BriefingCardView.swift in Sources */,
 				471DB6FC0FDE8AE92227F062 /* BuildingPhaseView.swift in Sources */,
 				5E4009FC00D8913C4FD0EEEB /* CalendarIngestionService.swift in Sources */,
@@ -481,6 +488,7 @@
 				7959B133970A0D1D0D251988 /* FilingTagView.swift in Sources */,
 				358373A656B48E21B1A77AC1 /* HealthIngestionService.swift in Sources */,
 				6343FB51EBB3D176397FEC10 /* Insight.swift in Sources */,
+				66C7E23F6AF9A7261D6D084A /* InsightEngine.swift in Sources */,
 				465C2030C53EAF269EE9EE2B /* InstantValueView.swift in Sources */,
 				ABB7849579941000F8A175C1 /* LocationService.swift in Sources */,
 				6E1555A439F028256007C37E /* MorningBriefingIntent.swift in Sources */,
